@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         //TODO put your code changes in here
 
-        /*// First example (Variables)
+        // First example (Variables)
         Employee employee1 = new Employee();
         System.out.println("================ Variables -ex 01 ==============");
         System.out.println(employee1.name);
@@ -69,7 +69,7 @@ public class Main {
         System.out.println();
 
         System.out.println("Control flow example 3: ");
-        controlFlow.test2();*/
+        controlFlow.test2();
 
         System.out.println("Code challenge 3: ");
         Integer[] array1 = {1, 1, 0, -1, -1};
@@ -80,11 +80,10 @@ public class Main {
         System.out.println();
 
         System.out.println("Code challenge 4: ");
-        Integer[] array2 = {-1,-1,-1,2};
+        Integer[] array2 = {-1, -1, -1, 2};
         CodeChallenge4 codeChallenge4 = new CodeChallenge4();
         int val2 = codeChallenge4.countPairs(array2);
         System.out.print("Answer: ");
         System.out.println(val2);
-
     }
 }
